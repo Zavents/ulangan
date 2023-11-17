@@ -1,3 +1,7 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+
+
 * {
       margin: 0;
       padding: 0;
@@ -5,10 +9,10 @@
 }
 
 .header {
-      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",sans-serif;
+      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", sans-serif;
       min-height: 100vh;
       width: 100%;
-      background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/Backgroundfubuki.png);
+      background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/img/Backgroundfubuki.png);
       background-position: center;
       background-size: cover;
       position: relative;
@@ -75,16 +79,6 @@ nav img {
       width: 100%;
 }
 
-/*
-      flex-basis: 31%;
-      background: #39ABE0;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      padding: 20px 12px;
-      box-sizing: border-box;
-      */
-
-
 .text-box {
 
       width: 30%;
@@ -103,7 +97,7 @@ nav img {
 }
 
 .box {
-      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",sans-serif;
+      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", sans-serif;
       font-size: 35px;
       font-weight: bold;
       opacity: 0;
@@ -194,7 +188,7 @@ nav img {
       box-shadow: 0 0 20px 0px rgba(4, 9, 30, 0.7);
       border: 1px solid #39ABE0;
       background: #39ABE0;
-      transition: 1s;
+
 }
 
 nav .fa {
@@ -271,7 +265,7 @@ nav .fa {
 }
 
 h1 {
-      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",sans-serif;    
+      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", sans-serif;
       color: #39ABE0;
       font-size: 36px;
       font-weight: 600;
@@ -364,7 +358,7 @@ p2 {
       margin: auto;
       padding-top: 100px;
       text-align: center;
-     
+
 }
 
 
@@ -376,15 +370,15 @@ p2 {
       background: linear-gradient(rgba(106, 139, 184, 0.7), rgba(25, 41, 59, 0.7));
       padding: 25px;
       cursor: pointer;
-      display: flex
-
+      display: flex;
+      transition: 1s;
+      transform: scale(1.0);
 }
+
 .sukon-col:hover {
       box-shadow: 0 0 20px 0px rgba(4, 9, 30, 0.7);
       border: 1px solid #000000;
       transform: scale(1.1);
-      transition: 1s;
-
 }
 
 
@@ -400,7 +394,7 @@ p2 {
 }
 
 .sukon-col h3 {
-      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",sans-serif;
+      font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", sans-serif;
       margin-top: 15px;
 }
 
@@ -430,7 +424,9 @@ p2 {
       text-align: center;
 
 }
-.qna h1, i{
+
+.qna h1,
+i {
       font-size: 20px;
       color: #39ABE0;
       padding: 0;
@@ -443,38 +439,42 @@ p2 {
       padding-right: 100px;
       color: #ffffff;
       text-shadow:
-      3px 3px 2px #000,
-      -3px 3px 2px #000,
+            3px 3px 2px #000,
+            -3px 3px 2px #000,
 }
-.qna p{
+
+.qna p {
       text-align: left;
       padding-left: 100px;
       padding-right: 100px;
       text-shadow:
-      3px 3px 2px #000,
-      -3px 3px 2px #000,
+            3px 3px 2px #000,
+            -3px 3px 2px #000,
 }
 
 
 /*-------- footer ----------- */
-.footer{
+.footer {
       width: 100%;
       text-align: center;
 }
-.footer h4{
-      color:#8ab6ca;
+
+.footer h4 {
+      color: #8ab6ca;
       font-size: 25px;
       margin-bottom: 25px;
       margin-top: 20px;
       font-weight: 600;
 }
+
 .icons {
       color: #39ABE0;
       margin: 0 13px;
       cursor: pointer;
       padding: 18px 0;
-      
+
 }
-.fa-heart{
+
+.fa-heart {
       color: #39ABE0;
 }
