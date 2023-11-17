@@ -12,7 +12,7 @@
       font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", sans-serif;
       min-height: 100vh;
       width: 100%;
-      background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/img/Backgroundfubuki.png);
+      background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/Backgroundfubuki.png);
       background-position: center;
       background-size: cover;
       position: relative;
@@ -414,7 +414,7 @@ p2 {
 
 .qna {
 
-      background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 2)), url("images/qnabanner.jpg");
+      background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 2)), url("../img/qnabanner.jpg");
       width: 80%;
       background-position: center;
       background-size: cover;
