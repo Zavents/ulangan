@@ -87,6 +87,8 @@ nav img {
       position: absolute;
       top: 50%;
       left: 50%;
+      padding-top: 10%;
+      padding-bottom: 10%;
       transform: translate(-50%, -50%);
       text-align: center;
       border-radius: 20px;
@@ -189,6 +191,7 @@ nav img {
       box-shadow: 0 0 20px 0px rgba(4, 9, 30, 0.7);
       border: 1px solid #39ABE0;
       background: #39ABE0;
+      
 
 }
 
@@ -204,7 +207,7 @@ nav .fa {
             position: absolute;
             height: 50;
             top: 50;
-
+            right: -100px;
             text-align: center;
             width: auto;
       }
@@ -255,6 +258,38 @@ nav .fa {
       }
 }
 
+
+/* hp */
+@media(max-width: 750px) {
+      .text-box {
+            position: absolute;
+            height: 50;
+            top: -50;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            right: -150px;
+            text-align: center;
+            width: auto;
+            font-size: 10px;
+      }
+
+      .text-box h1 {
+            font-size: 10px;
+      }
+
+
+      
+      .text-box p {
+            margin: 8px 0 30px;
+            font-size: 10px;
+      }
+      .p{
+            font-size: 6px;
+      }
+      .h1{
+            font-size: 8px;
+      }
+}
 /*----- VIDEO ------*/
 .video {
       background-color: #293D53;
@@ -335,6 +370,7 @@ p2 {
 .video-col:hover {
       box-shadow: 0 0 20px 0px rgba(4, 9, 30, 0.7);
       transform: scale(1.1);
+      
 
 }
 
@@ -438,23 +474,19 @@ p2 {
       background-size: cover;
       margin: 100px auto;
       border-radius: 10px;
-      padding: 100px 0;
       text-align: center;
-
+      padding: 2%;
 }
 
 .qna h1,
 i {
       font-size: 20px;
       color: #39ABE0;
-      padding: 0;
       text-decoration: none;
 }
 
 .qna h3 {
-      text-align: left;
-      padding-left: 100px;
-      padding-right: 100px;
+      text-align: left;      
       color: #ffffff;
       text-shadow:
             3px 3px 2px #000,
@@ -463,8 +495,6 @@ i {
 
 .qna p {
       text-align: left;
-      padding-left: 100px;
-      padding-right: 100px;
       text-shadow:
             3px 3px 2px #000,
             -3px 3px 2px #000,
